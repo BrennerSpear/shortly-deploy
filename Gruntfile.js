@@ -116,9 +116,9 @@ module.exports = function(grunt) {
     }
   });
 
-  // grunt.registerTask('deploy', [
-  //   'build',
-  // ]);
+  grunt.registerTask('deploy', [
+    'build', 'upload'
+  ]);
 
 
 };
