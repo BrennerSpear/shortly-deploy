@@ -1,4 +1,5 @@
 var express = require('express');
+var mongoose = require('./app/config');
 var partials = require('express-partials');
 var bodyParser = require('body-parser');
 var cookieParser = require('cookie-parser');
